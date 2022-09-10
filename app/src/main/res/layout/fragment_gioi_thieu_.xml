@@ -1,0 +1,273 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.assignment.fragment.GioiThieu_Fragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_ui"
+                android:gravity="center"
+                android:layout_marginTop="-5dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/ic_settings_black_24dp"
+                    android:tint="@android:color/black" />
+
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/profile_image"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="100dp"
+                    android:paddingTop="5dp"
+                    android:text="Đai học Tôn Đức Thắng"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                />
+
+
+            </LinearLayout>
+<!--            <GridLayout-->
+<!--                android:layout_width="345dp"-->
+<!--                android:layout_height="100dp"-->
+<!--                android:layout_marginTop="285dp"-->
+<!--                android:layout_marginLeft="33dp"-->
+<!--                android:layout_marginRight="33dp"-->
+<!--                android:columnOrderPreserved="false">-->
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    app:cardBackgroundColor="@color/white"-->
+<!--                    app:cardElevation="10dp"-->
+<!--                    app:cardCornerRadius="7dp">-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="115dp"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="vertical">-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="Follower"-->
+<!--                            android:textSize="15dp"-->
+<!--                            android:textColor="@color/black"/>-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="1235"-->
+<!--                            android:textSize="20dp"-->
+<!--                            android:textColor="@color/grey_dam"-->
+<!--                            android:layout_marginTop="8dp"/>-->
+<!--                    </LinearLayout>-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="115dp"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:layout_marginLeft="115dp"-->
+<!--                        android:orientation="vertical">-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="Following"-->
+<!--                            android:textSize="15dp"-->
+<!--                            android:textColor="@color/black"/>-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="155"-->
+<!--                            android:textSize="20dp"-->
+<!--                            android:textColor="@color/grey_dam"-->
+<!--                            android:layout_marginTop="8dp"/>-->
+<!--                    </LinearLayout>-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="115dp"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:layout_marginLeft="220dp"-->
+<!--                        android:orientation="vertical">-->
+<!--                        <Button-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="Follow me"-->
+<!--                            android:textSize="14dp"-->
+<!--                            android:background="@drawable/bg_ui"-->
+<!--                            android:textColor="@color/white"/>-->
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+<!--            </GridLayout>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_marginTop="325dp"
+                android:background="@drawable/bg_ui"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="134dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="45dp"
+                    android:text="Post"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="134dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="35dp"
+                    android:text="Contact"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="134dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="45dp"
+                    android:text="About"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="460dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/email"
+                    android:tint="@color/grey_dam" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:text="dodaotrucquyen2001@gmail.com"
+                    android:textColor="@color/grey_dam"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="500dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_phone_black_24dp"
+                    android:tint="@color/grey_dam" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:text="0932631xxx"
+                    android:textColor="@color/grey_dam"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="540dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:tint="@color/grey_dam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_person_add_black_24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:text="tuyendung@gmail.com"
+                    android:textColor="@color/grey_dam"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/line1"
+                android:layout_marginLeft="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="580dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:tint="@color/grey_dam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_message_black_24dp"/>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:text="Liên hệ Trúc Quyên"
+                    android:textColor="@color/grey_dam"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+
+
+            <TextView
+                android:layout_below="@id/line1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textAlignment="textStart"
+                android:layout_marginBottom="20dp"
+                android:text="Đây là phần mềm quản lí thu chi trên nền tẳng android. Giúp bạn có thể quản lí được các chi tiêu trong cuộc sống hằng ngày của bạn"
+                android:textColor="@color/grey_dam"
+                android:textSize="18dp"
+                android:gravity="start" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
