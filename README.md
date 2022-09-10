@@ -1,4 +1,4 @@
 # Expense-Management-App
 
-Video Demo App
+Video Demo
 https://youtu.be/FkpVVIJoeWs
